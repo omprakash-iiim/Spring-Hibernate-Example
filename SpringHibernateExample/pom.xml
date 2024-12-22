@@ -10,7 +10,7 @@
   <properties>
 		<spring.version>5.2.24.RELEASE</spring.version>
 		<hibernate.version>6.6.4.Final</hibernate.version>
-		<mysql.version>8.0.33</mysql.version>
+		<mysql.version>9.1.0</mysql.version>
 		<joda-time.version>2.3</joda-time.version>
 	</properties>
 
@@ -54,8 +54,8 @@
 
 		<!-- MySQL -->
 		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
 			<version>${mysql.version}</version>
 		</dependency>
 
